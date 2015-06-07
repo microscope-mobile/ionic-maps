@@ -1,5 +1,5 @@
-# microscope-mobile-blank
-ionic browserify / npm workflow blank template
+# microscope-mobile-maps
+ionic browserify / npm workflow maps template
 
 Requirements
 ------------
