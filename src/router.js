@@ -8,12 +8,12 @@ function Router($stateProvider, $urlRouterProvider) {
   $stateProvider
 
   .state('maps', {
-    url: "/",
-    templateUrl: "components/maps/controllers/maps.html",
+    url: '/',
+    templateUrl: 'components/maps/controllers/maps.html',
     controller: 'MapsCtrl as vm'
   });
 
-  $urlRouterProvider.otherwise("/");
+  $urlRouterProvider.otherwise('/');
 }
 
 module.exports = Router;
