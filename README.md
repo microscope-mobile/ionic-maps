@@ -1,4 +1,4 @@
-# microscope-mobile-maps
+# ionic-maps
 ionic browserify / npm workflow maps template
 
 Requirements

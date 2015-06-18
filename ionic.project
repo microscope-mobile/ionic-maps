@@ -1,5 +1,5 @@
 {
-  "name": "IonicBrowserify",
+  "name": "ionic-maps",
   "app_id": "",
   "gulpStartupTasks": [
     "build",
