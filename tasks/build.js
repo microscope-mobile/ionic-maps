@@ -1,3 +1,4 @@
+// imports
 var gulp = require('gulp');
 var browserify  = require('browserify');
 var source      = require('vinyl-source-stream');
@@ -16,7 +17,7 @@ gulp.task('browserify', function(cb){
     cb();
 });
 
-// build:release
+// build in release mode
 gulp.task('browserify:release', function(cb){
 	
  	return browserify('./src/app.js')
@@ -29,12 +30,14 @@ gulp.task('browserify:release', function(cb){
     cb();
 });
 
+// copy fonts
 gulp.task('fonts', function(cb){
  	return gulp.src('node_modules/ionic-framework/release/fonts/**')
         .pipe(gulp.dest('./www/fonts/'));
     cb();
 });
 
+// copy assets
 gulp.task('assets', function(cb){
  	return gulp.src('./assets/**')
         .pipe(gulp.dest('./www/'));
